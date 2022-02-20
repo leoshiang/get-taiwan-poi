@@ -1,0 +1,33 @@
+{
+  "name": "get-taiwan-landmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "下載711門市.js",
+  "dependencies": {
+    "buffer": "^5.7.1",
+    "fs": "^0.0.1-security",
+    "fast-xml-parser": "^4.0.3",
+    "base64-js": "^1.5.1",
+    "node-fetch": "^2.6.7",
+    "ieee754": "^1.2.1",
+    "sync-fetch": "^0.3.1",
+    "strnum": "^1.0.5",
+    "whatwg-url": "^5.0.0",
+    "tr46": "^0.0.3",
+    "webidl-conversions": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoshiang/get-taiwan-landmarks.git"
+  },
+  "author": "向皓田",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoshiang/get-taiwan-landmarks/issues"
+  },
+  "homepage": "https://github.com/leoshiang/get-taiwan-landmarks#readme"
+}
