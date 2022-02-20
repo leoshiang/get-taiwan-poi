@@ -11,6 +11,8 @@
     "fs": "^0.0.1-security",
     "ieee754": "^1.2.1",
     "node-fetch": "^2.6.7",
+    "node-html-parser": "^5.2.0",
+    "selenium-webdriver": "^4.1.1",
     "sleep": "^6.3.0",
     "strnum": "^1.0.5",
     "sync-fetch": "^0.3.1",
