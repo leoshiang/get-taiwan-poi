@@ -4,19 +4,20 @@
   "description": "",
   "main": "下載711門市.js",
   "dependencies": {
-    "buffer": "^5.7.1",
-    "fs": "^0.0.1-security",
-    "fast-xml-parser": "^4.0.3",
     "base64-js": "^1.5.1",
-    "node-fetch": "^2.6.7",
+    "buffer": "^5.7.1",
+    "child_process": "^1.0.2",
+    "fast-xml-parser": "^4.0.3",
+    "fs": "^0.0.1-security",
     "ieee754": "^1.2.1",
-    "sync-fetch": "^0.3.1",
+    "node-fetch": "^2.6.7",
+    "sleep": "^6.3.0",
     "strnum": "^1.0.5",
-    "whatwg-url": "^5.0.0",
+    "sync-fetch": "^0.3.1",
     "tr46": "^0.0.3",
-    "webidl-conversions": "^3.0.1"
+    "webidl-conversions": "^3.0.1",
+    "whatwg-url": "^5.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
