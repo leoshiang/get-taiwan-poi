@@ -1,5 +1,5 @@
 const fs = require('fs')
-const fetch = require('node-fetch')
+const fetch = require('sync-fetch')
 const { parse } = require('node-html-parser')
 
 ;(async () => {
@@ -48,6 +48,6 @@ function 輸出結果 (檔案名稱, 結果) {
   fs.writeFileSync(檔案名稱, 結果 + '\r\n', { flag: 'a' })
 }
 
-async function 取得網頁資料 (網址, 參數) {
-  return (await fetch(網址, 參數 || {})).text()
+function 取得網頁資料 (網址, 參數) {
+  return fetch(網址, 參數 || {}).text()
 }
