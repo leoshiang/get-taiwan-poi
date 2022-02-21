@@ -45,7 +45,7 @@ fs.writeFileSync(輸出檔名, 欄位名稱 + '\r\n', { flag: 'a' })
     縣市 + '\t' +
     '' + '\t' +
     站牌資訊.StationPosition.PositionLon + '\t' +
-    站牌資訊.StationPosition.PositionLat + '\t'
+    站牌資訊.StationPosition.PositionLat
   寫入輸出檔(line)
 }))
 
